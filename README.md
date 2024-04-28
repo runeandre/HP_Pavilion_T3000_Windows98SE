@@ -33,8 +33,8 @@ These are the specifications of the PC, but it's not original stock (RAM and HDD
 ### BIOS settings
 Disable `Plug and Play OS` in the BIOS.
 <br>`F1 (BIOS)` -> `Plug and Play OS` -> `No`
-<br>![BIOS F1](BIOS_F1.JPG)
-<br>![BIOS Plug and Play](BIOS_PNP.JPG)
+<br>![BIOS F1](BIOS_F1.PNG)
+<br>![BIOS Plug and Play](BIOS_PNP.PNG)
 
 ### Install Windows 98SE
 1. Download the Windows 98SE USB Image: <a href="https://archive.org/download/Windows_98SE_Memory_Patch/Windows%2098SE%20-%20Memory%20Patch%20Collection.IMG.zip">Windows 98SE - Memory Patch Collection.img</a>
@@ -45,11 +45,11 @@ Disable `Plug and Play OS` in the BIOS.
 <br>![Rufus](Rufus.png)
 
 3. Boot the PC and press `ESC` to show the boot select menu, and select the `USB stick`.
-<br>![BIOS ESC](BIOS_ESC.JPG)
-<br>![Boot menu](BootMenu.JPG)
+<br>![BIOS ESC](BIOS_ESC.PNG)
+<br>![Boot menu](BootMenu.PNG)
 
 4. You should now see this menu after booting from the USB stick.
-<br>![USB Boot Menu](USB_BOOT_MENU.JPG)
+<br>![USB Boot Menu](USB_BOOT_MENU.PNG)
 
 5. Select option `7. Partition with fdisk` to partition the HDD (if necessary).
 	- Select `5. Change the current fixed disk drive`
@@ -63,16 +63,16 @@ Disable `Plug and Play OS` in the BIOS.
 
 6. Select option `2. Setup: 512MB Max RAM Limit` 
 <br>This option was used because the PC has 1.5GB of RAM.
-<br>![Option 2](USB_OPTION_2.JPG)
+<br>![Option 2](USB_OPTION_2.PNG)
 
 7. Select option `2. Setup 2: 512MB Max RAM Limit (No PNP)`
 <br>This is to disable `Plug and Play` during setup.
-<br>![Option 2](USB_OPTION_2_2.JPG)
+<br>![Option 2](USB_OPTION_2_2.PNG)
 
 8. Complete the setup until you arrive at the Windows 98SE desktop.
 	- If you get errors, try to reboot and let it start normally (don't start in `Safe mode` from the `F8` menu).
 	- A warning related to the `IDE controller` will probably appear (ref image below). Click a key, PC shuts down, and then you boot it again normally.
-	<br>![IDE warning](IDE_WARNING.JPG)
+	<br>![IDE warning](IDE_WARNING.PNG)
 
 ### USB Mass storage driver
 There is a driver you can install that enables support for USB hard drives, sticks, SD-card readers etc.
